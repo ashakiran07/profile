@@ -20,11 +20,16 @@ body {
   line-height: 25px;
   margin: 0px;
   text-align: center;
-  width: 800px;
-  padding: 0 20px;
+  /* width: 800px; */
 }
 
 /* Media queries for responsiveness */
+@media (max-width: 1400px) {
+  .container {
+    width: 100% !important;
+  }
+}
+
 @media (max-width: 960px) {
   .container {
     width: 700px;
