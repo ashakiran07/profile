@@ -44,7 +44,7 @@ body:hover {
   justify-content: center;
   box-shadow: 15px 10px 10px rgba(136, 129, 129, 0.3);
   width: 400px;
-  background: linear-gradient(45deg, #e9ecef, #4c4e50)
+  background: linear-gradient(45deg, #e1e4e6, #4c4e50)
 }
 
 .card-white:hover {
@@ -53,7 +53,7 @@ body:hover {
 
 /* Headers */
 h1, h2{
-  color: #02172e;
+  color: black;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -69,7 +69,7 @@ h2 {
 a {
   background-color: #e0e3e8; /* Default link color */
   text-decoration: none; /* Remove underline by default */
-  color: #1e6091;
+  color: #003566;
   border-radius: 10px;
   padding: 7px;
   font-size: 10px;
@@ -92,10 +92,11 @@ a:hover {
 .list-block {
   list-style: none;
   padding-left: 0;
+  color: #003566;
 }
 
 .fa-brands {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .image-container {
